@@ -1,0 +1,8 @@
+node_modules/
+auth/
+.env
+groupSettings.json
+data/
+tenants.json
+*.log
+.DS_Store

@@ -1,0 +1,58 @@
+<svg width="1000" height="520" viewBox="0 0 1000 520" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0B1120"/>
+      <stop offset="100%" stop-color="#131C31"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#4F7CFF"/>
+      <stop offset="100%" stop-color="#8A5CFF"/>
+    </linearGradient>
+    <radialGradient id="glow" cx="85%" cy="15%" r="60%">
+      <stop offset="0%" stop-color="#4F7CFF" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#4F7CFF" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <rect width="1000" height="520" fill="url(#bg)"/>
+  <rect width="1000" height="520" fill="url(#glow)"/>
+
+  <!-- subtle orbit rings -->
+  <circle cx="830" cy="120" r="70" fill="none" stroke="#4F7CFF" stroke-opacity="0.18" stroke-width="1.5"/>
+  <circle cx="830" cy="120" r="110" fill="none" stroke="#8A5CFF" stroke-opacity="0.12" stroke-width="1.5"/>
+  <circle cx="830" cy="120" r="8" fill="#4F7CFF"/>
+
+  <!-- top accent bar -->
+  <rect x="70" y="90" width="64" height="6" rx="3" fill="url(#accent)"/>
+
+  <!-- name -->
+  <text x="70" y="185" font-family="Arial, Helvetica, sans-serif" font-size="64" font-weight="700" fill="#F5F7FA" letter-spacing="1">SPACE_X BOT</text>
+  <text x="70" y="228" font-family="Arial, Helvetica, sans-serif" font-size="24" font-weight="400" fill="#8B95A8">Automated support for business &amp; group management</text>
+
+  <!-- divider -->
+  <line x1="70" y1="270" x2="930" y2="270" stroke="#2A344A" stroke-width="1"/>
+
+  <!-- feature chips -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="20" fill="#C7CEDB">
+    <rect x="70" y="300" width="185" height="46" rx="23" fill="#1B2438" stroke="#2A344A"/>
+    <text x="95" y="329">🛠️ Utility</text>
+
+    <rect x="270" y="300" width="185" height="46" rx="23" fill="#1B2438" stroke="#2A344A"/>
+    <text x="295" y="329">🎮 Fun &amp; Games</text>
+
+    <rect x="470" y="300" width="230" height="46" rx="23" fill="#1B2438" stroke="#2A344A"/>
+    <text x="495" y="329">👥 Group Tools</text>
+
+    <rect x="715" y="300" width="215" height="46" rx="23" fill="#1B2438" stroke="#2A344A"/>
+    <text x="740" y="329">🖼️ Media &amp; AI</text>
+  </g>
+
+  <!-- footer -->
+  <line x1="70" y1="380" x2="930" y2="380" stroke="#2A344A" stroke-width="1"/>
+  <circle cx="80" cy="412" r="4" fill="#4F7CFF"/>
+  <text x="96" y="418" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#9AA3B5">Owner &amp; Developer — Noel Musya</text>
+  <circle cx="80" cy="444" r="4" fill="#8A5CFF"/>
+  <text x="96" y="450" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#9AA3B5">Instagram — The Developer | thedeveloper2026</text>
+  <circle cx="80" cy="476" r="4" fill="#4F7CFF"/>
+  <text x="96" y="482" font-family="Arial, Helvetica, sans-serif" font-size="19" fill="#9AA3B5">Email — musyanoel85@gmail.com</text>
+</svg>
